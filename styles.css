@@ -6,6 +6,22 @@
 
 body { background-color: #3c1053; }
 
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+input {
+    margin-left: 2rem;
+}
+
+.totalTip {
+    font-size: 8rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+
 header {
     background-color: #3c1053;
     color: #fff;
@@ -46,7 +62,7 @@ li {
     text-align: center;
 }
 
-section {
+section.main {
     background: #ad5389;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
