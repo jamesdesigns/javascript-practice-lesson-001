@@ -19,6 +19,15 @@ nav ul {
     margin-bottom: 2rem;
 }
 
+nav ul.icons {
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-desc {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: #fff;
