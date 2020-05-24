@@ -44,6 +44,10 @@ nav ul.icons {
     text-align: center;
 }
 
+.selected:hover {
+    color: #3c1053;
+}
+
 a {
     text-decoration: none;
     color: #fff;
