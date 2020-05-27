@@ -6,3 +6,7 @@ function calculateBill() {
 })
 }
 
+
+$("#htmlinput").on("input",function(){
+    $("#target").html($(this).val());
+  });
