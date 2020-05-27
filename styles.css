@@ -26,29 +26,30 @@ input {
     border-bottom: 2px solid white;
     width: 90%;
     outline: none;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
 }
 
 input::placeholder {
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
-
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
 
 label {
     font-size: 2rem;
     color: white;
     margin-left: 2rem;
+}
+
+.calc {
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-top: 20px;
 }
 
 .totalTip {
