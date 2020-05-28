@@ -52,7 +52,7 @@ label {
     margin-top: 20px;
 }
 
-.totalTip {
+#target {
     font-size: 8rem;
     color: #fff;
     margin-left: 2rem;
@@ -61,6 +61,19 @@ label {
 header {
     background-color: #3c1053;
     color: #fff;
+}
+
+textarea {
+    width: 90%;
+    padding: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: white;
+    outline: none;
 }
 
 nav ul {
