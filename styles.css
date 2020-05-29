@@ -58,7 +58,7 @@ input::placeholder {
     width: 100%;
     flex-direction: column;
     margin-left: 70%;
-
+    margin-bottom: 2rem;
 }
 
 input.tipInput {
@@ -72,7 +72,7 @@ input.tipInput {
     align-content: flex-end;
 }
 
-input.dollarAmount {
+input#dollarAmount {
     color: white;
     background-color: white;
     border: none;
@@ -115,7 +115,7 @@ header {
 
 textarea {
     width: 90%;
-    padding: 25px;
+    padding: 5px;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid white;
@@ -128,7 +128,7 @@ textarea {
 
 nav ul {
     display: flex;
-    height: 100px;
+    height: 50px;
     align-items: flex-end;
     justify-content: flex-end;
     margin-bottom: 2rem;
@@ -170,7 +170,7 @@ section.main {
     background: -webkit-linear-gradient(to top, #3c1053, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #3c1053, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     color: #fff;
     padding-top: 30px;
     border-top-left-radius: 25px;
