@@ -53,6 +53,40 @@ input::placeholder {
     text-align: center;
 }
 
+.selectTip {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 70%;
+
+}
+
+input.tipInput {
+    color: white;
+    background-color: #fc00ff;
+    border: none;
+    width: 20%;
+    padding: 0;
+    border-radius: 15px;
+    text-align: right;
+    align-content: flex-end;
+}
+
+input.dollarAmount {
+    color: white;
+    background-color: white;
+    border: none;
+    width: 20%;
+    padding: 0;
+    border-radius: 15px;
+    align-content: flex-end;
+}
+
+.tip {
+    color: white;
+    font-size: 2rem;
+}
+
 label {
     font-size: 2rem;
     color: white;
