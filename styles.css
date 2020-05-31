@@ -57,23 +57,23 @@ input::placeholder {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin-left: 70%;
+    margin-left: 65%;
     margin-bottom: 2rem;
 }
 
-input.tipInput {
+#tipInput {
     color: white;
     background-color: #fc00ff;
     border: none;
     width: 20%;
     padding: 0;
     border-radius: 15px;
-    text-align: right;
+    text-align: center;
     align-content: flex-end;
 }
 
-input#dollarAmount {
-    color: black;
+#dollarAmount {
+    color: #3c1053;
     background-color: white;
     border: none;
     width: 20%;
