@@ -23,7 +23,7 @@ h2 {
     flex-direction: row;
 }
 
-.dollar {
+#dollar {
     color: white;
     font-size: 2rem;
     margin-left: 2rem;
