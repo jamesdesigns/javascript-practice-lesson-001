@@ -8,6 +8,7 @@ $("#htmlinput").on("input",function(){
 
  // This gets the dollar amount entered
  var theBill = document.getElementById('htmlinput').value;
+
  // This assigns the Tip Percentage the use entered as a Tip %
  var tipPercentage = document.getElementById('tipInput').value;
  
@@ -21,7 +22,7 @@ var totalTip = parseFloat(tipAmount * .01) * parseFloat(theBill);
 console.log(totalTip);
 
 document.getElementById('dollarAmount').value = totalTip;
-document.getElementById('target').value = totalTip + theBill;
+document.getElementById('target').innerHTML = totalTip + parseFloat(theBill);
 
 var addTipDollar = parseFloat(totalTip) + parseFloat(theBill);
 console.log(addTipDollar);
