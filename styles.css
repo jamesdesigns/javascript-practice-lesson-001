@@ -73,7 +73,7 @@ input.tipInput {
 }
 
 input#dollarAmount {
-    color: white;
+    color: black;
     background-color: white;
     border: none;
     width: 20%;

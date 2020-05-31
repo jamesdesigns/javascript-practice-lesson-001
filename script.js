@@ -3,10 +3,25 @@ $("#htmlinput").on("input",function(){
     $("#target").html($(this).val());
   });
 
- var tipPercent = document.querySelector('.tipInput');
- var theBill = document.getElementById('htmlinput');
+ // This gets the Tip Percentage the User enters 
+var totalBill = parseInt(tipAmount ) * parseInt(theBill);
+ var tipAmount = document.querySelector('.tipInput').value;
 
-var totalBill = parseInt(tipPercent) * parseInt(theBill);
+
+ // This gets the dollar amount entered
+ var theBill = document.getElementById('htmlinput').value;
+
+ var tipPercentage = document.getElementById('dollarAmount').value;
+
+ console.log(tipPercentage);
+ console.log(theBill);
+
+ 
+
+var totalBill = parseFloat(tipAmount * .01) * parseFloat(theBill);
 console.log(totalBill);
 
-document.getElementById('dollarAmount').innerHTML = totalBill;
+
+
+document.getElementById('dollarAmount').value = totalBill;
+
